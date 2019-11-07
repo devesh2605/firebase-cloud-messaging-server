@@ -1,0 +1,33 @@
+{
+  "name": "firebase-cloud-messaging-server",
+  "version": "1.0.0",
+  "description": "firebase cloud messaging server using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devesh2605/firebase-cloud-messaging-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "firebase",
+    "cloud-messaging"
+  ],
+  "author": "Devesh Vyas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devesh2605/firebase-cloud-messaging-server/issues"
+  },
+  "homepage": "https://github.com/devesh2605/firebase-cloud-messaging-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.7.0",
+    "helmet": "^3.21.2",
+    "mongoose": "^5.7.8"
+  }
+}

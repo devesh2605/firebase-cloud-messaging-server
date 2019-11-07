@@ -1,2 +1,2 @@
 # firebase-cloud-messaging-server
-Firebase messaging server using NodeJS
+Firebase cloud messaging server using NodeJS
